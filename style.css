@@ -1,0 +1,67 @@
+:root {
+    /* colores */
+    --color-white:  hsl(0, 0%, 100%);
+    --color-lightGray: hsl(212, 45%, 89%);
+    --color-greyBlue: hsl(220, 15%, 55%);
+    --color-darkBlue: hsl(218, 44%, 22%);
+    --color-a-blue: hsl(228, 45%, 44%);
+    /*  font */
+    --pSize: 15px;
+    /* media queries */
+    --mediaMobile:  375px;
+    --mediaDesktop: 1440px;
+}
+* {
+    box-sizing: border-box;   
+}
+
+.attribution { font-size: 11px;text-align: center;}
+.attribution a { color: var(--color-a-blue)}
+
+.card {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.qrImg {
+    margin-top: 15px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* :FOR MOBILE */
+@media (min-width: 375px) {
+    body {
+        background-color: var(--color-lightGray);
+    }
+    .card {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 540px;
+        
+    }
+    .qrImg {
+        width: 90%;
+    }
+    .improve {
+        width: 60%;
+        font-size: var(--pSize);
+    }
+    .scan {
+        width: 60%;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+/* :FOR DESKTOP */
+@media (min-width: 1440px ) {
+    
+}
