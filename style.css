@@ -32,6 +32,9 @@
     align-items: center;
     border-radius: 10px;
 }
+.improve, .scan{
+    font-family: 'Nanum Gothic', sans-serif;
+}
 
 /* :FOR MOBILE */
 @media (min-width: 375px) {
@@ -53,10 +56,12 @@
     .improve {
         width: 60%;
         font-size: var(--pSize);
+        font-weight: 700;
     }
     .scan {
         width: 60%;
-        font-size: 14px;
+        font-size: var(--pSize);
+        font-weight: 400;
         margin-bottom: 20px;
     }
 }
