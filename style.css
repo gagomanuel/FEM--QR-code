@@ -55,7 +55,7 @@
         background-color: var(--color-lightGray);
     }
     .card {
-        --mobMargin: 28%;
+        --mobMargin: 20%;
         margin-top: var(--mobMargin);
         margin-bottom: var(--mobMargin);
         margin-left: auto;
