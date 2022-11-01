@@ -32,6 +32,7 @@ Esta es una solucion de [QR code component challenge on Frontend Mentor](https:/
 - HTML5
 - CSS Nativo
 - Flexbox
+- Figma
 
 ### Lo que aprendí
 
